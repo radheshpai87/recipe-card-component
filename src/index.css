@@ -1,0 +1,55 @@
+/* ...existing code... */
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%);
+  color: #222;
+  min-height: 100vh;
+  transition: background 0.3s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+button {
+  font-family: inherit;
+  padding: 0.5em 1.2em;
+  border-radius: 6px;
+  border: none;
+  background: #ff7043;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #d84315;
+}
+
+input, textarea {
+  font-family: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+  border-radius: 4px;
+}
