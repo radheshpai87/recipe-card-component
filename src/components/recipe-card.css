@@ -31,3 +31,57 @@
   text-align: left;
   margin-top: 12px;
 }
+
+.difficulty {
+  font-weight: bold;
+  padding: 4px 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  display: inline-block;
+  font-size: 0.95rem;
+}
+
+.difficulty.easy {
+  background: #e8f5e9;
+  color: #388e3c;
+  border: 1px solid #388e3c;
+}
+
+.difficulty.medium {
+  background: #fffde7;
+  color: #fbc02d;
+  border: 1px solid #fbc02d;
+}
+
+.difficulty.hard {
+  background: #ffebee;
+  color: #d32f2f;
+  border: 1px solid #d32f2f;
+}
+
+
+.dietary-tag {
+  display: inline-block;
+  padding: 3px 10px;
+  margin: 2px 6px 2px 0;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  background: #ececec;
+  color: #555;
+}
+
+.dietary-tag.vegetarian {
+  background: #c8e6c9;
+  color: #388e3c;
+}
+
+.dietary-tag.vegan {
+  background: #ffe0b2;
+  color: #f57c00;
+}
+
+.dietary-tag.gluten-free {
+  background: #b3e5fc;
+  color: #0288d1;
+}
